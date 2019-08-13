@@ -8,10 +8,12 @@ For this project, I am using the Sparkfun Pi Wedge (Adafruit calls it a T-Cobble
 
 Also, I wanted to be able to setup multiple projects, each on their own breadboard and simply transfer the Pi Wedge from board to board to demonstrate many projects in a short amount of time with only one Raspberry Pi available.
 
-# Wiring Diagram with Sparkfun Pi Wedge
+## Wiring Diagram with Sparkfun Pi Wedge
 
 ![Fritzing Wiring diagram for Vision999 project](/images/Vision999_wiring_diagram.png "Vision999 wiring diagram")
 
-When usinga Pi Wedge/T-Cobbler, you need to make sure that you use Broadcom GPIO numbering (BCM) instead of board numbering
+When using a Pi Wedge/T-Cobbler, you need to make sure that you use Broadcom GPIO numbering (BCM) instead of board numbering
 
 _GPIO.setmode(GPIO.BCM)_
+
+As you can see, this is still a simple project using only 4 wires, 3 resisters and 3 LEDs.
